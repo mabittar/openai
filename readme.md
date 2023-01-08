@@ -7,9 +7,9 @@ Is highly autonomous systems that outperform humans at most economically valuabl
 Using this script it's possible to describe an image and the AI will create an image based on your description or use it to create texts, titles or own names.
 These text-to-image systems use a range of complex technology such as deep learning algorithms and generative adversarial networks (GANs)
 
-## Why use it?
+## Motivation
 
-First of all I want try OpenAI, using [Typer](https://typer.tiangolo.com/) to build a friendly command line and consuming [OpenAI API](https://github.com/openai/openai-python). Second, I read that OpenAI is winning digital contests around the world -> [link](https://www.nytimes.com/2022/09/02/technology/ai-artificial-intelligence-artists.html). So, why not?
+All the buzz around the chat and everything it delivers. The bot has already been challenged with various questions, including music creation, poems, Enen essay. It has also been described as the "world's first truly useful chatbot". In another [NY Times story ](https://www.nytimes.com/2022/09/02/technology/ai-artificial-intelligence-artists.html), that OpenAI is winning digital art contests around the world. So to make OpenAI easier to use, I created a script in Python, using [Typer](https://typer.tiangolo.com/) to make the terminal more user-friendly and consuming the [OpenAI API](https://github.com/openai/openai-python).
 
 Let's start!
 
