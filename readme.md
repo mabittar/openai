@@ -51,18 +51,21 @@ To make successful calls to the Open AI API, you will need to register to Open A
 
  the output should be something
  ```Shell
- Usage: main.py [OPTIONS] DESCRIPTION
+ Usage: main.py [OPTIONS]                                                                                                                                                         
+                                                                                                                                                                                  
+╭─ Options ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --help          Show this message and exit.                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Customization and Utils ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --create             TEXT  Enter image for image creation or text for text creation. [default: Image]                                                                          │
+│ --description        TEXT  Enter here the description for your request, long descriptions are better than short ones.                                                          │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-Arguments:
-  DESCRIPTION  [required]
-
-Options:
-  --help  Show this message and exit.
  ```
 
  So the command line is work, let's try create some image
 
- at the terminal type: `python main.py "Space Opera Theater"`, wait for the outputs and check for the output when the image been saved: `Image created at /... .png`
+ at the terminal type: `python main.py image "Space Opera Theater"`, wait for the outputs and check for the output when the image been saved: `Image created at /... .png`
 
  <p align="center">
  images/2023-01-05_100416.json-0.png
