@@ -68,7 +68,6 @@ To make successful calls to the Open AI API, you will need to register to Open A
  at the terminal type: `python main.py image "Space Opera Theater"`, wait for the outputs and check for the output when the image been saved: `Image created at /... .png`
 
  <p align="center">
- images/2023-01-05_100416.json-0.png
   <img src="./images/2023-01-05_100416.json-0.png" alt="Size Limit CLI" width="512">
 </p>
 
